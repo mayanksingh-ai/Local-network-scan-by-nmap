@@ -1,0 +1,400 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    192.168.41.130        4.213.25.242          TLSv1.2  155    Application Data
+
+Frame 1: 155 bytes on wire (1240 bits), 155 bytes captured (1240 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_fd:c4:50 (00:50:56:fd:c4:50)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 4.213.25.242
+Transmission Control Protocol, Src Port: 52992, Dst Port: 443, Seq: 1, Ack: 1, Len: 101
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000000268    4.213.25.242          192.168.41.130        TCP      60     443 → 52992 [ACK] Seq=1 Ack=102 Win=64240 Len=0
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_fd:c4:50 (00:50:56:fd:c4:50), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 4.213.25.242, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 443, Dst Port: 52992, Seq: 1, Ack: 102, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.028085296    4.213.25.242          192.168.41.130        TLSv1.2  225    Application Data
+
+Frame 3: 225 bytes on wire (1800 bits), 225 bytes captured (1800 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_fd:c4:50 (00:50:56:fd:c4:50), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 4.213.25.242, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 443, Dst Port: 52992, Seq: 1, Ack: 102, Len: 171
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.080760802    192.168.41.130        4.213.25.242          TCP      60     52992 → 443 [ACK] Seq=102 Ack=172 Win=64680 Len=0
+
+Frame 4: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_fd:c4:50 (00:50:56:fd:c4:50)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 4.213.25.242
+Transmission Control Protocol, Src Port: 52992, Dst Port: 443, Seq: 102, Ack: 172, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 3.355989826    192.168.41.1          192.168.41.130        TCP      66     54721 → 7680 [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 54721, Dst Port: 7680, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 3.356518946    192.168.41.1          192.168.41.130        TCP      60     54721 → 7680 [ACK] Seq=1 Ack=1 Win=65280 Len=0
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 54721, Dst Port: 7680, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 3.356519122    192.168.41.130        192.168.41.1          TCP      66     7680 → 54721 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 7680, Dst Port: 54721, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 3.356519155    192.168.41.1          192.168.41.130        MS-DO    129    Handshake Message (Request)
+
+Frame 8: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 54721, Dst Port: 7680, Seq: 1, Ack: 1, Len: 75
+Microsoft Delivery Optimization
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 3.358285483    192.168.41.130        192.168.41.1          MS-DO    129    Handshake Message (Reply)
+
+Frame 9: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 7680, Dst Port: 54721, Seq: 1, Ack: 76, Len: 75
+Microsoft Delivery Optimization
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 3.358285896    192.168.41.1          192.168.41.130        TCP      60     54721 → 7680 [FIN, ACK] Seq=76 Ack=76 Win=65280 Len=0
+
+Frame 10: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 54721, Dst Port: 7680, Seq: 76, Ack: 76, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 3.358708015    192.168.41.130        192.168.41.1          TCP      60     7680 → 54721 [ACK] Seq=76 Ack=77 Win=65280 Len=0
+
+Frame 11: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 7680, Dst Port: 54721, Seq: 76, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 3.359294294    192.168.41.1          192.168.41.130        TCP      60     [TCP ACKed unseen segment] 54721 → 7680 [ACK] Seq=77 Ack=77 Win=65280 Len=0
+
+Frame 12: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 54721, Dst Port: 7680, Seq: 77, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 3.359294512    192.168.41.130        192.168.41.1          TCP      60     7680 → 54721 [FIN, ACK] Seq=76 Ack=77 Win=65280 Len=0
+
+Frame 13: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 7680, Dst Port: 54721, Seq: 76, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 10.419945999   192.168.41.1          192.168.41.130        TCP      66     7680 → 53279 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 14: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 7680, Dst Port: 53279, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 10.419946292   192.168.41.130        192.168.41.1          TCP      66     53279 → 7680 [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 15: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 53279, Dst Port: 7680, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 10.420327462   192.168.41.130        192.168.41.1          TCP      60     53279 → 7680 [ACK] Seq=1 Ack=1 Win=65280 Len=0
+
+Frame 16: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 53279, Dst Port: 7680, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 10.420900288   192.168.41.130        192.168.41.1          MS-DO    129    Handshake Message (Request)
+
+Frame 17: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 53279, Dst Port: 7680, Seq: 1, Ack: 1, Len: 75
+Microsoft Delivery Optimization
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 10.420900429   192.168.41.1          192.168.41.130        MS-DO    129    Handshake Message (Reply)
+
+Frame 18: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 7680, Dst Port: 53279, Seq: 1, Ack: 76, Len: 75
+Microsoft Delivery Optimization
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 10.421118069   192.168.41.1          192.168.41.130        TCP      60     7680 → 53279 [FIN, ACK] Seq=76 Ack=76 Win=65280 Len=0
+
+Frame 19: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 7680, Dst Port: 53279, Seq: 76, Ack: 76, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 10.421417146   192.168.41.130        192.168.41.1          TCP      60     53279 → 7680 [ACK] Seq=76 Ack=77 Win=65280 Len=0
+
+Frame 20: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 53279, Dst Port: 7680, Seq: 76, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 10.421891125   192.168.41.1          192.168.41.130        TCP      60     [TCP ACKed unseen segment] 7680 → 53279 [ACK] Seq=77 Ack=77 Win=65280 Len=0
+
+Frame 21: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 7680, Dst Port: 53279, Seq: 77, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 10.421891253   192.168.41.130        192.168.41.1          TCP      60     53279 → 7680 [FIN, ACK] Seq=76 Ack=77 Win=65280 Len=0
+
+Frame 22: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 53279, Dst Port: 7680, Seq: 76, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 18.755582218   192.168.41.1          192.168.41.130        TCP      66     7680 → 53280 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 23: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 7680, Dst Port: 53280, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 18.755582502   192.168.41.130        192.168.41.1          TCP      66     53280 → 7680 [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 24: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 53280, Dst Port: 7680, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 18.756005946   192.168.41.130        192.168.41.1          TCP      60     53280 → 7680 [ACK] Seq=1 Ack=1 Win=65280 Len=0
+
+Frame 25: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 53280, Dst Port: 7680, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 18.756455763   192.168.41.130        192.168.41.1          MS-DO    129    Handshake Message (Request)
+
+Frame 26: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 53280, Dst Port: 7680, Seq: 1, Ack: 1, Len: 75
+Microsoft Delivery Optimization
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 18.756455880   192.168.41.1          192.168.41.130        TCP      60     7680 → 53280 [FIN, ACK] Seq=1 Ack=76 Win=65280 Len=0
+
+Frame 27: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 7680, Dst Port: 53280, Seq: 1, Ack: 76, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 18.756957034   192.168.41.130        192.168.41.1          TCP      60     53280 → 7680 [ACK] Seq=76 Ack=2 Win=65280 Len=0
+
+Frame 28: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 53280, Dst Port: 7680, Seq: 76, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 18.757506173   192.168.41.1          192.168.41.130        TCP      60     [TCP ACKed unseen segment] 7680 → 53280 [ACK] Seq=2 Ack=77 Win=65280 Len=0
+
+Frame 29: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 7680, Dst Port: 53280, Seq: 2, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 18.757506304   192.168.41.130        192.168.41.1          TCP      60     53280 → 7680 [FIN, ACK] Seq=76 Ack=2 Win=65280 Len=0
+
+Frame 30: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 53280, Dst Port: 7680, Seq: 76, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 21.543776782   192.168.41.1          192.168.41.130        MS-DO    60     KeepAlive Message
+
+Frame 31: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 7680, Dst Port: 49707, Seq: 1, Ack: 1, Len: 4
+Microsoft Delivery Optimization
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 21.589279817   192.168.41.130        192.168.41.1          TCP      60     49707 → 7680 [ACK] Seq=1 Ack=5 Win=254 Len=0
+
+Frame 32: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 49707, Dst Port: 7680, Seq: 1, Ack: 5, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 23.892127015   192.168.41.131        192.46.215.60         NTP      90     NTP Version 4, client
+
+Frame 33: 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_4a:f7:88 (00:0c:29:4a:f7:88), Dst: VMware_fd:c4:50 (00:50:56:fd:c4:50)
+Internet Protocol Version 4, Src: 192.168.41.131, Dst: 192.46.215.60
+User Datagram Protocol, Src Port: 36903, Dst Port: 123
+Network Time Protocol (NTP Version 4, client)
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 23.918419135   VMware_fd:c4:50       Broadcast             ARP      60     Who has 192.168.41.131? Tell 192.168.41.2
+
+Frame 34: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_fd:c4:50 (00:50:56:fd:c4:50), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 23.918729372   VMware_4a:f7:88       VMware_fd:c4:50       ARP      60     192.168.41.131 is at 00:0c:29:4a:f7:88
+
+Frame 35: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_4a:f7:88 (00:0c:29:4a:f7:88), Dst: VMware_fd:c4:50 (00:50:56:fd:c4:50)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 23.918729503   192.46.215.60         192.168.41.131        NTP      90     NTP Version 4, server
+
+Frame 36: 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_fd:c4:50 (00:50:56:fd:c4:50), Dst: VMware_4a:f7:88 (00:0c:29:4a:f7:88)
+Internet Protocol Version 4, Src: 192.46.215.60, Dst: 192.168.41.131
+User Datagram Protocol, Src Port: 123, Dst Port: 36903
+Network Time Protocol (NTP Version 4, server)
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 29.035093809   VMware_4a:f7:88       VMware_fd:c4:50       ARP      60     Who has 192.168.41.2? Tell 192.168.41.131
+
+Frame 37: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_4a:f7:88 (00:0c:29:4a:f7:88), Dst: VMware_fd:c4:50 (00:50:56:fd:c4:50)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 29.035094095   VMware_fd:c4:50       VMware_4a:f7:88       ARP      60     192.168.41.2 is at 00:50:56:fd:c4:50
+
+Frame 38: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_fd:c4:50 (00:50:56:fd:c4:50), Dst: VMware_4a:f7:88 (00:0c:29:4a:f7:88)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 42.761662342   192.168.41.130        192.168.41.1          MS-DO    60     KeepAlive Message
+
+Frame 39: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 49707, Dst Port: 7680, Seq: 1, Ack: 5, Len: 4
+Microsoft Delivery Optimization
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 42.804228564   192.168.41.1          192.168.41.130        TCP      60     7680 → 49707 [ACK] Seq=5 Ack=5 Win=254 Len=0
+
+Frame 40: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 7680, Dst Port: 49707, Seq: 5, Ack: 5, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 43.789310196   192.168.41.1          192.168.41.130        TCP      66     54726 → 7680 [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 41: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 54726, Dst Port: 7680, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 43.789804267   192.168.41.1          192.168.41.130        TCP      60     54726 → 7680 [ACK] Seq=1 Ack=1 Win=65280 Len=0
+
+Frame 42: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 54726, Dst Port: 7680, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 43.789804416   192.168.41.130        192.168.41.1          TCP      66     7680 → 54726 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 43: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 7680, Dst Port: 54726, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 43.789804442   192.168.41.1          192.168.41.130        MS-DO    129    Handshake Message (Request)
+
+Frame 44: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 54726, Dst Port: 7680, Seq: 1, Ack: 1, Len: 75
+Microsoft Delivery Optimization
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 43.791018988   192.168.41.130        192.168.41.1          MS-DO    129    Handshake Message (Reply)
+
+Frame 45: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 7680, Dst Port: 54726, Seq: 1, Ack: 76, Len: 75
+Microsoft Delivery Optimization
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 43.791019288   192.168.41.1          192.168.41.130        TCP      60     54726 → 7680 [FIN, ACK] Seq=76 Ack=76 Win=65280 Len=0
+
+Frame 46: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 54726, Dst Port: 7680, Seq: 76, Ack: 76, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 43.791501805   192.168.41.1          192.168.41.130        TCP      60     [TCP ACKed unseen segment] 54726 → 7680 [ACK] Seq=77 Ack=77 Win=65280 Len=0
+
+Frame 47: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_c0:00:08 (00:50:56:c0:00:08), Dst: VMware_04:16:a7 (00:0c:29:04:16:a7)
+Internet Protocol Version 4, Src: 192.168.41.1, Dst: 192.168.41.130
+Transmission Control Protocol, Src Port: 54726, Dst Port: 7680, Seq: 77, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 43.791502086   192.168.41.130        192.168.41.1          TCP      60     7680 → 54726 [FIN, ACK] Seq=76 Ack=76 Win=65280 Len=0
+
+Frame 48: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 7680, Dst Port: 54726, Seq: 76, Ack: 76, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 43.791502114   192.168.41.130        192.168.41.1          TCP      60     7680 → 54726 [ACK] Seq=77 Ack=77 Win=65280 Len=0
+
+Frame 49: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_04:16:a7 (00:0c:29:04:16:a7), Dst: VMware_c0:00:08 (00:50:56:c0:00:08)
+Internet Protocol Version 4, Src: 192.168.41.130, Dst: 192.168.41.1
+Transmission Control Protocol, Src Port: 7680, Dst Port: 54726, Seq: 77, Ack: 77, Len: 0
